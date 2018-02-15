@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:background="@drawable/gradient_body" >
+
+    <ImageView
+        android:id="@+id/subject_picture"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_marginLeft="@dimen/size8dp"
+        android:layout_marginRight="@dimen/size8dp"
+        android:contentDescription="@string/subject_icon"
+        android:scaleType="centerCrop" >
+    </ImageView>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/size8dp"
+        android:layout_marginRight="@dimen/size8dp"
+        android:layout_weight="1.5"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/homework_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@+id/homework_title"
+            android:textSize="16sp" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/due_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@+id/due_date"
+            android:textSize="14sp" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/subject_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@+id/subject_name"
+            android:textSize="14sp" >
+        </TextView>
+    </LinearLayout>
+
+</LinearLayout>

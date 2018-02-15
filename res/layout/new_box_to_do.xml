@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/edit_todo"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@drawable/gradient_dialog_bg" >
+    
+    <EditText
+        android:id="@+id/txt_enter_todo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/size16dp"
+        android:layout_marginTop="@dimen/size16dp"
+        android:imeOptions="actionDone"
+        android:inputType="textMultiLine"
+        android:scrollHorizontally="false"
+        android:maxLines="6" />
+
+    <CheckBox
+        android:id="@+id/todo_completed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/todo_completed_checkbox" />
+
+    <Button
+        android:id="@+id/btn_ok_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ok" />
+
+</LinearLayout>

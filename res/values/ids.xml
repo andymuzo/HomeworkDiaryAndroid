@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <item name="check_box_sunday" type="id" />
+    <item name="check_box_monday" type="id" />
+    <item name="check_box_tuesday" type="id" />
+    <item name="check_box_wednesday" type="id" />
+    <item name="check_box_thursday" type="id" />
+    <item name="check_box_friday" type="id" />
+    <item name="check_box_saturday" type="id" />
+    <item name="notification_id" type="id" />
+    
+</resources>

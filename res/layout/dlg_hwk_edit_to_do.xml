@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:id="@+id/edit_todo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/gradient_dialog_bg"
+        android:gravity="left"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/txt_enter_todo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/size16dp"
+            android:layout_marginTop="@dimen/size16dp"
+            android:imeOptions="actionDone"
+            android:inputType="textMultiLine"
+            android:maxLines="6"
+            android:scrollHorizontally="false" />
+
+        <CheckBox
+            android:id="@+id/todo_completed"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/todo_completed_checkbox" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" >
+
+            <Button
+                android:id="@+id/btn_delete_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/size16dp"
+                android:layout_marginRight="@dimen/size16dp"
+                android:layout_marginTop="4dp"
+                android:layout_weight="1"
+                android:text="@string/delete" />
+
+            <Button
+                android:id="@+id/btn_ok_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/size16dp"
+                android:layout_marginRight="@dimen/size16dp"
+                android:layout_marginTop="4dp"
+                android:layout_weight="1"
+                android:text="@string/ok" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

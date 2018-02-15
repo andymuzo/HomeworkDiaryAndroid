@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/slate_bg"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/size16dp"
+    android:paddingRight="@dimen/size16dp" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/gradient_body" >
+
+            <TextView
+                android:id="@+id/txt_session_details"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/size16dp"
+                android:layout_marginRight="@dimen/size16dp"
+                android:layout_marginTop="@dimen/size8dp"
+                android:text="@string/notification_settings_title"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:background="#FF000000" />
+
+            <TextView
+                android:id="@+id/txt_notification_settings_instructions"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/size8dp"
+                android:layout_marginLeft="@dimen/size16dp"
+                android:layout_marginRight="@dimen/size16dp"
+                android:layout_marginTop="@dimen/size8dp"
+                android:text="@string/notification_settings_instructions"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <CheckBox
+                android:id="@+id/chk_settings_notify_enable"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginTop="4dp"
+                android:text="@string/txt_settings_notify_enable" />
+
+            <TableRow
+                android:id="@+id/row_notification_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/txt_notification_time_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/size16dp"
+                    android:layout_marginTop="@dimen/size8dp"
+                    android:text="@string/txt_settings_notify_time"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/txt_notification_time"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/size16dp"
+                    android:layout_marginRight="@dimen/size16dp"
+                    android:layout_marginTop="@dimen/size8dp"
+                    android:layout_weight="1"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <ImageView
+                    android:id="@+id/continue_icon"
+                    android:layout_width="@dimen/size16dp"
+                    android:layout_height="@dimen/size16dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="@dimen/size16dp"
+                    android:layout_marginTop="@dimen/size8dp"
+                    android:contentDescription="@string/continue_icon"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/small_arrow_right" />
+            </TableRow>
+
+            <TextView
+                android:id="@+id/txt_timetable_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/size16dp"
+                android:layout_marginRight="@dimen/size16dp"
+                android:layout_marginTop="@dimen/size16dp"
+                android:text="@string/timetable_horiz_settings_title"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:background="#FF000000" />
+
+            <TextView
+                android:id="@+id/txt_timetable_horiz_settings_instructions"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/size8dp"
+                android:layout_marginLeft="@dimen/size16dp"
+                android:layout_marginRight="@dimen/size16dp"
+                android:layout_marginTop="@dimen/size8dp"
+                android:text="@string/timetable_horiz_settings_instructions"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/txt_set_start_time_instructions"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/size8dp"
+                    android:layout_marginLeft="@dimen/size16dp"
+                    android:layout_marginRight="@dimen/size8dp"
+                    android:layout_marginTop="@dimen/size8dp"
+                    android:text="@string/set_start_time_instructions"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <Spinner
+                    android:id="@+id/spn_set_start_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/size8dp"
+                    android:layout_marginLeft="@dimen/size8dp"
+                    android:layout_marginRight="@dimen/size16dp"
+                    android:layout_marginTop="@dimen/size8dp" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/txt_set_end_time_instructions"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/size8dp"
+                    android:layout_marginLeft="@dimen/size16dp"
+                    android:layout_marginRight="@dimen/size16dp"
+                    android:layout_marginTop="@dimen/size8dp"
+                    android:text="@string/set_end_time_instructions"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <Spinner
+                    android:id="@+id/spn_set_end_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/size8dp"
+                    android:layout_marginLeft="@dimen/size8dp"
+                    android:layout_marginRight="@dimen/size16dp"
+                    android:layout_marginTop="@dimen/size8dp" />
+            </TableRow>
+
+            <TextView
+                android:id="@+id/txt_set_days_to_show_instructions"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/size16dp"
+                android:layout_marginRight="@dimen/size16dp"
+                android:layout_marginTop="@dimen/size8dp"
+                android:text="@string/set_days_to_show_instructions"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <com.anidari.homeworkdiary.DaySelecterLayout
+                android:id="@+id/day_selecter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/size8dp"
+                android:layout_marginLeft="@dimen/size16dp"
+                android:layout_marginRight="@dimen/size16dp"
+                android:layout_marginTop="@dimen/size8dp"
+                android:orientation="horizontal" />
+
+            <TextView
+                android:id="@+id/txt_timetable_fields_to_show"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/size16dp"
+                android:layout_marginRight="@dimen/size16dp"
+                android:layout_marginTop="@dimen/size8dp"
+                android:layout_marginBottom="@dimen/size8dp"
+                android:text="@string/landscape_timetable_fields_to_show"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <CheckBox
+                android:id="@+id/chk_timetable_show_subject"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginTop="4dp"
+                android:text="@string/chk_timetable_show_subject" />
+
+            <CheckBox
+                android:id="@+id/chk_timetable_show_location"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginTop="4dp"
+                android:text="@string/chk_timetable_show_location" />
+
+            <CheckBox
+                android:id="@+id/chk_timetable_show_tutor"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginTop="4dp"
+                android:text="@string/chk_timetable_show_tutor" />
+            
+            <TextView
+                android:id="@+id/txt_portrait_timetable_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/size16dp"
+                android:layout_marginRight="@dimen/size16dp"
+                android:layout_marginTop="@dimen/size16dp"
+                android:text="@string/timetable_vert_settings_title"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:background="#FF000000" />
+            
+            <TextView
+                android:id="@+id/txt_portrait_timetable_fields_to_show"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/size16dp"
+                android:layout_marginRight="@dimen/size16dp"
+                android:layout_marginTop="@dimen/size8dp"
+                android:layout_marginBottom="@dimen/size8dp"
+                android:text="@string/portrait_timetable_fields_to_show"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <CheckBox
+                android:id="@+id/chk_portrait_timetable_show_subject"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginTop="4dp"
+                android:text="@string/chk_timetable_show_subject" />
+
+            <CheckBox
+                android:id="@+id/chk_portrait_timetable_show_location"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginTop="4dp"
+                android:text="@string/chk_timetable_show_location" />
+
+            <CheckBox
+                android:id="@+id/chk_portrait_timetable_show_tutor"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginTop="4dp"
+                android:text="@string/chk_timetable_show_tutor" />
+            
+        </TableLayout>
+    </ScrollView>
+
+</FrameLayout>

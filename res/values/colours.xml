@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- light blue -->
+    <color name="header01">#70AFC4</color>
+    <!-- light blue -->
+    <color name="detail_header">#70AFC4</color>
+    <!-- pale blue -->
+    <color name="to_do_body">#D0F2E7</color>
+    <!-- light blue -->
+    <color name="to_do_title">#70AFC4</color>
+    <!-- palest blue -->
+    <color name="general_bg">#EBF2F2</color>
+    
+    <color name="temp_01">#A2A9AF</color>
+    <color name="temp_02">#8A939D</color>
+    <color name="temp_03">#FFC461</color>
+    <color name="temp_04">#FF9F00</color>
+    <color name="temp_05">#000000</color>
+    
+    <!-- dark blue -->
+    <color name="title_start">#022452</color>
+    <!-- medium blue -->
+    <color name="title_mid">#0F4FA8</color>
+    <!-- dark blue -->
+    <color name="title_end">#022452</color>
+    
+    <!-- mid orange -->
+    <color name="to_do_title_start">#ED7410</color>
+    <!-- light orange -->
+    <color name="to_do_title_mid">#F59342</color>
+    <!-- mid orange -->
+    <color name="to_do_title_end">#ED7410</color>
+    
+    <!-- ghost white -->
+    <color name="body_start">#F8F8FF</color>
+    <!-- extremely light red -->
+    <color name="body_end">#FFFAFA</color>
+    <!-- extremely light red -->    
+    <color name="header_end">#FFFAFA</color>
+    
+    <!-- ghost white -->
+    <color name="to_do_start">#F8F8FF</color>
+    
+    <!-- pink skin -->
+    <color name="to_do_end">#FFE1AE</color>
+    
+    <!-- very dark blue -->
+    <color name ="frame_bg_start">#262B36</color>
+    
+    <!-- black blue -->
+    <color name ="frame_bg_end">#0A1121</color>
+    
+    <!-- primary red -->
+    <color name ="list_bg_start">#FF0000</color>
+    <!-- primary blue -->
+    <color name ="list_bg_end">#0000FF</color>
+    
+    <!-- mid orange -->
+    <color name="action_bar_start">#ED7410</color>
+    <!-- light orange -->
+    <color name="action_bar_end">#F59342</color>
+
+    <!-- pink skin -->
+    <color name="txt_body_title">#FFE1AE</color>
+    <!-- dark blue -->
+    <color name="txt_to_do_title">#022452</color>
+    <!-- dark blue -->
+    <color name="txt_to_do_title1">#022452</color>
+    
+    
+    <color name="invisible">#00000000</color>
+    
+    <!-- primary red -->
+    <color name="underline">#FFFF0000</color>
+    
+    <color name="lighten_background_high">#99FFFFFF</color>
+    <color name="lighten_background_medium">#77FFFFFF</color>
+    <color name="lighten_background_low">#33FFFFFF</color>
+    
+    <color name="darken_background">#55000000</color>
+    <color name="darken_background_more">#88000000</color>
+    <color name="ghost_white">#F8F8FF</color>
+    <color name="ghost_white_transparent">#88F8F8FF</color>
+    <color name="extremely_light_red">#FFFAFA</color>
+    <color name="black_blue">#0A1121</color>
+    <color name="dark_blue">#022452</color>
+    <color name="medium_blue">#0F4FA8</color>
+    <color name="light_blue">#70AFC4</color>
+    <color name="pale_blue">#D0F2E7</color>
+    <color name="calm_mid_blue">#558C89</color>
+    <color name="calm_light_blue">#74AFAD</color>
+    <color name="calm_orange">#D9853B</color>
+    <color name="calm_grey">#ECECEA</color>
+    <color name="coral">#FF9999</color>
+    
+    <color name="mid_orange">#ED7410</color>
+    <color name="light_orange">#F59342</color>
+    <color name="pink_skin">#FFE1AE</color>
+    <color name="firebrick_red_mid">#CD2626</color>
+    <color name="red_mid">#CD0000</color>
+    
+    <color name="desert">#C19A6B</color>
+    <color name="parchment">#FFFFC2</color>
+    
+    <color name="yellow">#F3FD00</color>
+    <color name="green">#39E639</color>
+    <color name="purple">#7908AA</color>
+    <color name="pale_green">#00B454</color>
+    
+    <!-- for lazy reasons, "sand" is the name of the border colour for horiz timetable -->
+    <color name="sand">#F8F8FF</color>
+    
+    <color name="timetable00">#e5ff3f</color>
+    <color name="timetable01">#72ff3f</color>
+    <color name="timetable02">#3fff7e</color>
+    <color name="timetable03">#3ffff1</color>
+    <color name="timetable04">#3f99ff</color>
+    <color name="timetable05">#583fff</color>
+    <color name="timetable06">#cb3fff</color>
+    <color name="timetable07">#ff3fbf</color>
+    <color name="timetable08">#ff3f4c</color>
+    <color name="timetable09">#ffa53f</color>
+    
+    <color name="complimentary_orange">#ffa53f</color>
+    <color name="complimentary_yellow">#e5ff3f</color>
+    <color name="complimentary_light_green">#72ff3f</color>
+    <color name="complimentary_green">#3fff7e</color>
+    <color name="complimentary_light_blue">#3ffff1</color>
+    <color name="complimentary_mid_blue">#3f99ff</color>
+    <color name="complimentary_dark_blue">#583fff</color>
+    <color name="complimentary_purple">#cb3fff</color>
+    <color name="complimentary_pink">#ff3fbf</color>
+    <color name="complimentary_red">#ff3f4c</color>
+    
+    <color name="neutral_slate_1">#708090</color>
+    <color name="neutral_slate_2">#778899</color>
+    <color name="neutral_roman_silver">#838996</color>
+    <color name="neutral_steel_blue">#4682b4</color>
+    <color name="neutral_light_steel_blue">#778899</color>
+    
+    <color name="bold_orange_01">#ff8700</color>
+    <color name="bold_orange_light">#ffa53f</color>
+    <color name="bold_blue_light">#005ac0</color>
+    
+    <color name="trans_ghost_blue">#44F8F8FF</color>
+</resources>

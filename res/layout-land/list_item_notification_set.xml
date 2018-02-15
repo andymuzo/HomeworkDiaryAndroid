@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:paddingBottom="4dp"
+    android:paddingTop="4dp"
+    android:background="@drawable/gradient_body" >
+
+    <CheckBox
+        android:id="@+id/chk_list_notification_set"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft="@dimen/size32dp"
+        android:layout_marginTop="4dp"
+        android:focusable="true"
+        android:text="@string/notify_me"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</LinearLayout>

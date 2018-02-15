@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:padding="5dp" 
+    android:background="@drawable/gradient_to_do_new">
+
+    <ImageView
+        android:id="@+id/new_icon"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginLeft="@dimen/size16dp"
+        android:layout_marginRight="@dimen/size16dp"
+        android:contentDescription="@string/subject_icon"
+        android:scaleType="centerInside" >
+    </ImageView>
+
+        <TextView
+            android:id="@+id/list_new_todo_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_new_todo"
+            android:textSize="16sp" >
+        </TextView>
+
+</LinearLayout>

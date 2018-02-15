@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <gradient
+        android:angle="90"
+        android:endColor="@color/ghost_white"
+        android:startColor="@color/trans_ghost_blue" >
+    </gradient>
+
+    <corners
+        android:bottomLeftRadius="@dimen/corner_radius"
+        android:bottomRightRadius="@dimen/corner_radius"
+        android:topLeftRadius="@dimen/corner_radius"
+        android:topRightRadius="@dimen/corner_radius" >
+    </corners>
+    
+    <stroke
+        android:width="5dp"
+        android:color="@color/complimentary_mid_blue" >
+    </stroke>
+
+</shape>

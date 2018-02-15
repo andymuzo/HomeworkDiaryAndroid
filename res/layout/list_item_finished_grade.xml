@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:padding="5dp"
+    android:background="@drawable/gradient_body_end" >
+
+    <CheckBox
+        android:id="@+id/list_homework_finished"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft="@dimen/size16dp"
+        android:layout_marginTop="4dp"
+        android:focusable="false" />
+
+    <TextView
+        android:id="@+id/list_finished_text"
+        android:layout_width="0dp"
+        android:layout_weight="4"
+        android:layout_height="wrap_content"
+        android:text="@string/homework_finished"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <ImageView
+        android:id="@+id/continue_icon"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginTop="4dp"
+        android:contentDescription="@string/continue_icon"
+        android:scaleType="centerCrop" >
+    </ImageView>
+
+</LinearLayout>

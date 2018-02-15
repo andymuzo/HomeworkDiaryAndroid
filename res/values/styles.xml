@@ -1,0 +1,47 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+        <item name="android:windowTitleBackgroundStyle">@style/WindowTitleBackground</item>
+        <item name="android:itemTextAppearance">@style/TextAppearance</item>
+        <item name="android:titleTextStyle">@style/TitleTextAppearance</item>
+    </style>
+
+    <style name="WindowTitleBackground">
+        <item name="android:background">@drawable/action_bar_background</item>
+    </style>
+    
+    <style name="TitleTextAppearance" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/txt_to_do_title</item>
+    </style>
+    
+    <style name="TextAppearance">
+        <item name="android:textColor">@color/txt_to_do_title</item>
+    </style>
+
+    <style name="dayLabelText">
+        <item name="android:textStyle">bold|italic</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/dark_blue</item>
+    </style>
+    
+    <style name="timeTableTitleText">
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:textColor">@color/extremely_light_red</item>
+    </style>
+    
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+</resources>

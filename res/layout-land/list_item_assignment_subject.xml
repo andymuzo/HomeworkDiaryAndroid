@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:paddingTop="4dp"
+    android:paddingBottom="4dp"
+    android:background="@drawable/gradient_header" >
+
+    <ImageView
+        android:id="@+id/subject_picture"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_marginLeft="@dimen/size32dp"
+        android:layout_marginRight="@dimen/size32dp"
+        android:contentDescription="@string/subject_icon"
+        android:scaleType="centerCrop" >
+    </ImageView>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/size16dp"
+        android:layout_weight="4"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/list_homework_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:text="@string/no_title"
+            android:textSize="18sp" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/list_subject_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="@string/no_subject"
+            android:textSize="18sp" >
+        </TextView>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/continue_icon"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_marginLeft="@dimen/size16dp"
+        android:layout_marginRight="@dimen/size16dp"
+        android:layout_marginTop="4dp"
+        android:contentDescription="@string/continue_icon"
+        android:scaleType="centerCrop" >
+    </ImageView>
+</LinearLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:paddingBottom="4dp"
+    android:paddingTop="4dp"
+    android:background="@drawable/gradient_to_do" >
+
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/size16dp"
+        android:layout_marginRight="@dimen/size8dp"
+        android:focusable="false" />
+
+        <TextView
+            android:id="@+id/list_todo_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:layout_weight="4"
+            android:text="@string/todo_text"
+            android:textSize="18sp" >
+        </TextView>
+
+    <ImageView
+        android:id="@+id/move_icon"
+        android:layout_width="16dp"
+        android:layout_height="32dp"
+        android:layout_marginLeft="@dimen/size16dp"
+        android:layout_marginRight="@dimen/size16dp"
+        android:contentDescription="@string/move_icon"
+        android:scaleType="fitCenter" >
+    </ImageView>
+</LinearLayout>

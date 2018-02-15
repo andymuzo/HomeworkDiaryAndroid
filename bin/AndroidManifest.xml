@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.anromus.homeworkdiary"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:logo="@drawable/hwk_action_bar_icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.anidari.homeworkdiary.MainMenuActivity"
+            android:label="@string/title_activity_main_menu" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.anidari.homeworkdiary.HomeworkActivity"
+            android:label="@string/homework_activity_name" >
+        </activity>
+        <activity
+            android:name="com.anidari.homeworkdiary.HomeworkEntryActivity"
+            android:label="@string/title_activity_homework_entry" >
+        </activity>
+        <activity
+            android:name="com.anidari.homeworkdiary.HomeworkDetailActivity"
+            android:label="@string/title_activity_homework_entry" >
+        </activity>
+        <activity
+            android:name="com.anidari.homeworkdiary.SubjectEditActivity"
+            android:label="@string/title_activity_subject_edit" >
+        </activity>
+        <activity
+            android:name="com.anidari.homeworkdiary.TimeTableActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_time_table" >
+        </activity>
+        <activity
+            android:name="com.anidari.homeworkdiary.TimeTableListActivity"
+            android:configChanges="orientation|screenSize" >
+        </activity>
+        <activity
+            android:name="com.anidari.homeworkdiary.TimeTableNewActivity"
+            android:label="@string/title_activity_time_table_new" >
+        </activity>
+        <activity
+            android:name="com.anidari.homeworkdiary.TimeTableOrientationActivity"
+            android:label="@string/title_activity_time_table_orientation" >
+        </activity>
+
+        <service android:name="com.anidari.homeworkdiary.NotificationService" />
+
+        <receiver
+            android:name="com.anidari.homeworkdiary.NotificationDismissedReceiver"
+            android:exported="false" >
+        </receiver>
+
+        <activity
+            android:name="com.anidari.homeworkdiary.SettingsActivity"
+            android:label="@string/title_activity_settings" >
+        </activity>
+    </application>
+
+</manifest>
